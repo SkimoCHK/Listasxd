@@ -25,6 +25,8 @@
                 Console.WriteLine(numero);
             }
 
+            Console.WriteLine($"La lista tiene {numeros.Count()} elementos ");
+
             // Insertar un elemento en una posición específica
             numeros.Insert(1, 15); // Insertar el número 15 en el índice 1
 
